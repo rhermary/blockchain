@@ -1,3 +1,4 @@
+use blockchain::cryptography::sha::{SHA, hash};
 fn main() {
-    println!("Hello, world!");
+    hash("The quick brown fox jumps over the lazy dog", SHA::SHA1);
 }
